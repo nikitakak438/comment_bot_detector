@@ -1,3 +1,4 @@
+
 # Comment Bot Detector
 
 Система для оценки вероятности того, что комментарий на YouTube написан ботом.  
@@ -57,7 +58,5 @@ comment_bot_detector/
 ![Alt Text](/images/example.png)
 
 В ноутбуках описано множество результатов и тестов, там можно их посмотреть `comment_bot_detector/notebooks`
-
-
 
 
