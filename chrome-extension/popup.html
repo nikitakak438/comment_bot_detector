@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bot Detector</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="darkToggle">
+      <span class="slider round"></span>
+    </label>
+  </div>
+  
+  <h3>Bot Detector</h3>
+  <textarea id="comment" placeholder="Paste the comment here..." rows="5"></textarea>
+  <button id="check">Check</button>
+
+  <div id="loading" class="hidden">🔄 Checking...</div>
+  <div id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
