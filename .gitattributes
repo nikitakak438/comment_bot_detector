@@ -1,0 +1,2 @@
+bert_classifier/model.safetensors filter=lfs diff=lfs merge=lfs -text
+bert_classifier/*.bin filter=lfs diff=lfs merge=lfs -text
