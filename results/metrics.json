@@ -1,0 +1,30 @@
+{
+  "task": "youtube_comment_bot_detection",
+  "model": {
+    "name": "bert_classifier",
+    "framework": "transformers+pytorch",
+    "checkpoint": "bert-base-multilingual-cased"
+  },
+  "data": {
+    "source": "YouTube comments collected via YouTube Data API (own collection)",
+    "split": {
+      "type": "holdout",
+      "train_size": 0.8,
+      "test_size": 0.2,
+      "random_state": 42,
+      "stratified": false
+    },
+    "n_samples": {
+      "train": 11978,
+      "test": 2995
+    }
+  },
+  "metrics": {
+    "f1": 0.96,
+    "accuracy": 0.96
+  },
+  "runtime": {
+    "pipeline_minutes": 60.5648
+  },
+  "generated_at": "2025-11-24T21:35:00+03:00"   
+}
