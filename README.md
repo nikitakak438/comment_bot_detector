@@ -37,6 +37,7 @@ comment_bot_detector/
 │  └─ features.py             # фичи времени и тональности
 └─ results/
    ├─ metrics.json
+   └─ report.pdf              # отчет с ключевыми признаками, влияющими на классификацию
 ```
 
 
@@ -49,14 +50,16 @@ comment_bot_detector/
 
 ## Результаты 
 
-**Рассчеты F1 и Accuracy: (F1: 0.62 → 0.96)**
+**Рассчеты F1 и Accuracy: (F1: 0.72 → 0.96)**
 
-![Alt Text](/images/metrics.png)
+![Alt Text](images/metrics.png)
 
 **Пример собранных данных:**
 
-![Alt Text](/images/example.png)
+![Alt Text](images/example.png)
 
-В ноутбуках описано множество результатов и тестов, там можно их посмотреть `comment_bot_detector/notebooks`
+Отчёт по признакам [`results/report.pdf`](https://github.com/nikitakak438/comment_bot_detector/tree/main/results/report.pdf)
+
+В ноутбуках описано множество результатов и тестов, там можно их посмотреть [`notebooks`](https://github.com/nikitakak438/comment_bot_detector/tree/main/notebooks)
 
 
